@@ -1,0 +1,9 @@
+<p>Add Customer</p>
+<div>
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" class="form-control" id="first-name" required [(ngModel)]="customer.firstName" name="firstName">
+        </div>
+    </form>
+</div>
